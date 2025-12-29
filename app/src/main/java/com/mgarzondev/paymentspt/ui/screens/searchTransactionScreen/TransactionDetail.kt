@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.Button
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -106,6 +107,14 @@ fun TransactionDetail(viewModel: SearchViewModel) {
                 )
 
                 Spacer(modifier = Modifier.height(20.dp))
+
+                Button(
+                    onClick = { viewModel.loadTransactionById(transaction.receiptId) },
+                    modifier = Modifier.fillMaxWidth(),
+                    enabled = transaction.receiptId.isNotBlank()
+                ) {
+                    Text("Anular transacción")
+                }
 
             }
         }
