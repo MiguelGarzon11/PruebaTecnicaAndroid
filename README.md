@@ -22,7 +22,7 @@ Al presionar el botón **“Autorizar Transacción”**, la información se guar
 
 ### Vista – Autorizar Transacción
 
-![Autorizar Transacción](Screenshot_20251229_085214.png)
+![Autorizar Transacción](Images/autorizar.png)
 
 ---
 
@@ -38,7 +38,7 @@ La búsqueda se realiza directamente sobre los datos almacenados en **Room**, y 
 
 ### Vista – Buscar Transacción
 
-![Buscar Transacción](Screenshot_20251229_085313.png)
+![Buscar Transacción](Images/search.png)
 
 ---
 
@@ -56,7 +56,7 @@ La información se obtiene directamente desde la base de datos local **Room** y 
 
 ### Vista – Listado de Transacciones
 
-![Listado de Transacciones](Screenshot_20251229_085326.png)
+![Listado de Transacciones](Images/list.png)
 
 ---
 
